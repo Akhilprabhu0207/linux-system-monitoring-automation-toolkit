@@ -1,0 +1,1 @@
+*/5 * * * * /opt/system-monitoring/.venv/bin/sysmon monitor --json >> /var/log/system-monitor.json 2>&1
