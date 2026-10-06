@@ -1,0 +1,5 @@
+[Unit]
+Description=System monitoring toolkit
+[Service]
+Type=oneshot
+ExecStart=/opt/system-monitoring/.venv/bin/sysmon monitor --json
